@@ -16,11 +16,11 @@ To run the bot locally, follow these steps:
 Clone the repository: git clone https://github.com/petroskaletskyy/kbot.git
 Install the necessary dependencies: go get
 Create a new Telegram bot and obtain the API token
-Set the TG_TOKEN environment variable to the API token
+Set the TELE_TOKEN (TG_TOKEN) environment variable to the API token
 Start the bot: ./kbot start
 
- Examples
+Examples
 To start using the bot, simply send the /start command
 To receive a customized reply from the bot with your message, send the /start <message> command, replacing <message> with next messages - Hi, Hello, Bye. For example: /start Hi
 
- We hope you enjoy using our Telegram bot!
+We hope you enjoy using our Telegram bot!
