@@ -13,11 +13,11 @@ The following commands are currently supported:
 Installation
 To run the bot locally, follow these steps:
 
-Clone the repository: git clone https://github.com/petroskaletskyy/kbot.git
-Install the necessary dependencies: go get
-Create a new Telegram bot and obtain the API token
-Set the TELE_TOKEN environment variable to the API token
-Start the bot: ./kbot start
+1. Clone the repository: git clone https://github.com/petroskaletskyy/kbot.git
+2. Install the necessary dependencies: go get
+3. Create a new Telegram bot and obtain the API token
+4. Set the TELE_TOKEN environment variable to the API token
+5. Start the bot: ./kbot start
 
 Examples
 To start using the bot, simply send the /start command
