@@ -16,7 +16,7 @@ To run the bot locally, follow these steps:
 Clone the repository: git clone https://github.com/petroskaletskyy/kbot.git
 Install the necessary dependencies: go get
 Create a new Telegram bot and obtain the API token
-Set the "TELE_TOKEN" environment variable to the API token
+Set the TELE_TOKEN environment variable to the API token
 Start the bot: ./kbot start
 
 Examples
