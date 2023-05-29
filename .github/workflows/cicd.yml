@@ -2,6 +2,9 @@ name: KBOT-CICD
 
 on: push
 
+env:
+    TARGETARCH: amd64
+
 jobs:
     ci:
         name: CI
@@ -24,7 +27,9 @@ jobs:
               env: 
                 APP: "kbot"
                 REGISTRY: ${{ secrets.DOCKERHUB_USERNAME }}    
-              run: make image push  
+              run: make image push TARGETARCH=$TARGETARCH  
+            - name: Clean
+              run: make clean TARGETARCH=$TARGETARCH  
 
 
     cd:

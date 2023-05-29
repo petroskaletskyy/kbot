@@ -8,8 +8,9 @@ image:
   repository: pskaletskyy
   tag: "v1.0.5-51a82b5"
   arch: amd64
-  TELE_TOKEN: "TELE_TOKEN"
 secret:
   name: "kbot"
-  tokenName: "TELE_TOKEN"
-  tokenKey: "token"
+  env: "TELE_TOKEN"
+  key: "token"
+securityContext:
+  privileged: true   
