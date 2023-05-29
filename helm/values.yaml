@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: pskaletskyy
-  tag: "1.0.5-4580435"
+  tag: "1.0.7-296cf31"
   arch: amd64
 secret:
   name: "kbot"
