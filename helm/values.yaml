@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  registry: ""
+  registry: "ghcr.io"
   repository: "petroskaletskyy"
   tag: "1.0.7-a2c88b8"
   arch: "amd64"
