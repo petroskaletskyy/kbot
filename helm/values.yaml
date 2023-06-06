@@ -4,10 +4,8 @@
 
 replicaCount: 1
 image:
-  registry: "ghcr.io"
-  repository: "pskaletskyy/kbot"
+  repository: pskaletskyy
   tag: "1.0.7-d03029b"
-  os: linux
   arch: amd64
 secret:
   name: "kbot"
