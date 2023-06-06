@@ -33,10 +33,10 @@ jobs:
               env: 
                 APP: "kbot"
                 REGISTRY: "ghcr.io"    
-              run: make image push TARGETARCH=$TARGETARCH TARGETOS=&TARGETOS
+              run: make image push TARGETARCH=$TARGETARCH TARGETOS=$TARGETOS
 
             - name: Clean
-              run: make clean TARGETARCH=$TARGETARCH TARGETOS=&TARGETOS
+              run: make clean TARGETARCH=$TARGETARCH TARGETOS=$TARGETOS
 
     cd:
         name: CD
