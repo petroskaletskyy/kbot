@@ -15,4 +15,3 @@ secret:
   key: "token"
 securityContext:
   privileged: true
-  
