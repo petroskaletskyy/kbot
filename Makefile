@@ -1,6 +1,6 @@
 APP=$(shell basename $(shell git remote get-url origin))
 REGISTRY=ghcr.io
-REPOSITORY=pskaletskyy
+REPOSITORY=petroskaletskyy
 VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)
 TARGETOS=linux #linux darwin windows
 TARGETARCH=amd64 #arm64
