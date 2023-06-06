@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   registry: "ghcr.io"
-  repository: "petroskaletskyy/kbot"
+  repository: "petroskaletskyy"
   tag: "v1.0.7-b37d5e9"
   arch: "amd64"
   os: "linux"
