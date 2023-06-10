@@ -1,5 +1,5 @@
 APP=$(shell basename $(shell git remote get-url origin))
-REPO_PATH=$(shell git rev-parse --show-toplevel)
+REPO_PATH=$(patsubst %.git,%,$(notdir $(APP)))
 REGISTRY=ghcr.io
 REPOSITORY=petroskaletskyy
 VERSION=v$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)
