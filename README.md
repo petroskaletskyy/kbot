@@ -41,3 +41,6 @@ To start using the bot, simply send the /start command
 To receive a customized reply from the bot with your message, send the /start <message> command, replacing <message> with next messages - Hi, Hello, Bye. For example: /start Hi
 
 We hope you enjoy using our Telegram bot!
+ 
+
+## CICD Workflow
