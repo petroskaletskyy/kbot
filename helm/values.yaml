@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   registry: "ghcr.io"
   repository: "petroskaletskyy"
-  tag: "v1.0.10-3188a4b"
+  tag: "v1.0.11-55cb24a"
   arch: "amd64"
   os: "linux"
 secret:
